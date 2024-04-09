@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css" class="style">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <section class="subHeader">
+        <nav>
+            <a href="index.html"> <img src="eduford_img\logo.png" alt=""></a>
+            <div class="navLinks" id="navLinkss">
+                <i class="bi bi-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+
+       <h1>Contact Us</h1>
+    </section>
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15849.807116834072!2d80.7872185!3d6.7145912!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae38a5d15e55917%3A0x92bb8770edf29b53!2sSabaragamuwa%20University%20of%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1712568601535!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="contactUs">
+        <div class="row">
+            <div class="contactColumn">
+                <div>
+                        <i class="bi bi-house-check"></i>
+                        <span>
+                            <h5>Address</h5>
+                            <p>Pabahinna,<br> Belihuloya,<br> Rathnapura District</p></span>
+                </div>
+            
+                <div>
+                    <i class="bi bi-telephone"></i>
+                    <span>
+                        <h5>+9411584562</h5>
+                        <p>Monday to Friday, 8AM to 5PM</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="bi bi-envelope-at"></i>
+                        <span>
+                            <h5>prabodaharshani94@gmail.com</h5>
+                            <p>Email Us</p>
+                        </span>
+                </div>
+            </div>
+            <div class="contactColumn">
+                        <form action="form.php" method="post">
+                            <input type="text" name="name" placeholder="Enter Your Name" required>
+                            <input type="email" name="email" placeholder="Enter  Email Address" required>
+                            <input type="text" name="subject" placeholder="Enter Your Subject" required>
+                            <textarea  rows="8" name="message" placeholder="Message"></textarea> 
+                            <button type="submit" class="heroBtn redBtn">Send Message</button>                          
+
+
+
+                        </form>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Elevating minds and shaping futures, WisdomSphere University is committed to providing a transformative educational experience. <br>With a focus on academic excellence, innovation, and holistic development, we empower individuals to thrive in a dynamic world. Join us in our mission to inspire lifelong learning and personal growth.</p>
+            <div class="icons">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i>
+
+            </div>
+            <p>Made With <i class="bi bi-heart"></i> by Easy Tutorials</p>
+    </section>
+
+    
+    <script>
+        var navLinkss=document.getElementById("navLinkss");
+        function showMenu(){
+            navLinkss.style.right = "0";
+            }
+        function hideMenu(){
+            navLinkss.style.right = "-200px";
+            } 
+
+    </script>
+</body>
+
+</html>
