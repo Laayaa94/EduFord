@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Courses</title>
+    <link rel="stylesheet" href="style.css" class="style">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <section class="subHeader">
+        <nav>
+            <a href="index.html"> <img src="eduford_img\logo.png" alt=""></a>
+            <div class="navLinks" id="navLinkss">
+                <i class="bi bi-x" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="bi bi-list" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2024</h1>
+
+    </section> 
+    <section class="blogcontent">
+        <div class="row">
+            <div class="leftBlog">
+                <img src="eduford_img\certificate.jpg" alt="">
+            <h2>Our Certificates & online Programs</h2>
+                <p>
+                    Degree programs and certificates offer distinct pathways
+                     for individuals seeking to enhance their knowledge and skills in various fields.
+                      Degree programs, typically spanning several years, provide comprehensive education and
+                       often culminate in a bachelor's, master's, or doctoral degree. These programs offer
+                        in-depth theoretical understanding and practical training, equipping students with 
+                        a broad range of expertise within their chosen discipline. 
+                        <br>
+                         On the other hand, cert
+                        ificates offer focused, shorter-term educational opportunities, concentrating on 
+                        specific skills or areas of knowledge. They are designed to meet the demands of industries 
+                        for specialized competencies and can be completed in a shorter timeframe compared to degree
+                         programs. While degree programs provide a more comprehensive academic experience, 
+                         certificates 
+                         offer targeted skill development, making both valuable options for individuals 
+                    seeking to advance their careers or pursue new opportunities.
+                </p>
+                <div class="CommentBox">
+                    <h3>Leave a Comment</h3>
+                    <form action="" class="CommentForm">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="text" placeholder="Enter Email">
+                        <textarea  rows="5" placeholder="Your Comment"></textarea>
+                        <button type="submit" class="heroBtn redBtn">POST COMMENT</button>
+                    </form>
+                </div>
+        
+        </div>
+
+            <div class="rightBlog">
+                <h3>Post Categories</h3>
+
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+
+                <div>
+                    <span>Journalism</span>
+                    <span>22</span>
+                </div>
+
+                <div>
+                    <span>Commerce</span>
+                    <span>30</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>Elevating minds and shaping futures, WisdomSphere University is committed to providing a transformative educational experience. <br>With a focus on academic excellence, innovation, and holistic development, we empower individuals to thrive in a dynamic world. Join us in our mission to inspire lifelong learning and personal growth.</p>
+            <div class="icons">
+                <i class="bi bi-facebook"></i>
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-instagram"></i>
+                <i class="bi bi-linkedin"></i>
+
+            </div>
+            <p>Made With <i class="bi bi-heart"></i> by Easy Tutorials</p>
+    </section>
+
+    
+    <script>
+        var navLinkss=document.getElementById("navLinkss");
+        function showMenu(){
+            navLinkss.style.right = "0";
+            }
+        function hideMenu(){
+            navLinkss.style.right = "-200px";
+            } 
+
+    </script>
+</body>
+
+</html>
